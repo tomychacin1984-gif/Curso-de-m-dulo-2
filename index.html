@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Tarjeta de Presentación</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .tarjeta {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+            transition: background-color 0.5s ease;
+        }
+
+        .tarjeta:hover {
+            background-color: #4444F2;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 15px;
+            color: #555;
+        }
+
+        .emoji {
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .tarjeta {
+                width: 90%;
+            }
+        }
+
+        .social-icons a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="tarjeta">
+        <img src="ruta/a/tu-imagen.jpg" alt="mi cr7" style="border-radius: 400%; width: 200px; height: 200px;">
+        <h1 id="nombre">🧠🤌Jinmy chacin el prime</h1>
+        <p id="descripcion">Amante de la tecnología y atraido por diseño web.</p>
+        <p class="emoji">me encanta mucho los Videojuegos | 🙇 Arte digitales | y le gusta disfrutar</p>
+        <button onclick="cambiarColor()">Cambiar Color de Texto</button>
+        <p class="social-icons">
+            <a href="https://facebook.com" target="_blank">🐶facebook</a> |
+            <a href="https://instagram.com" target="_blank">🤧instagram</a>
+        </p>
+    </div>
+
+    <script>
+        function cambiarColor() {
+            const nombre = document.getElementById('nombre');
+            const descripcion = document.getElementById('descripcion');
+
+            // Cambiar  el color de texto
+            if (nombre.style.color === 'red') {
+                nombre.style.color = '#333'; // color original
+                descripcion.style.color = '#555'; // color original
+            } else {
+                nombre.style.color = 'red';
+                descripcion.style.color = 'red';
+            }
+        }
+    </script>
+
+</body>
+
+</html>
