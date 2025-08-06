@@ -1,0 +1,250 @@
+
+
+exmane html a continuacion
+ 
+  ejercicio 6
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css/estilos6.css">
+</head>
+<body>
+
+    <div class="cajita">
+        <h2>este es h2</h2>
+
+        <p>este es el parrafo</p>
+    </div>
+    
+</body>
+</html>
+
+
+caja {
+    width: 300px;
+    background-color: #F49D37;
+    border:  4px solid #140F2D;
+    padding:  30px;
+    margin: 500px;
+}
+
+ejercicio 7
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css/estilo7.css">
+</head>
+<body>
+
+    <div class="tarjeta">
+        <img width="300px" src="https://www.gettyimages.es/fotos/neymar-jr-brasil.jpg" alt="ser">
+       
+        <h2>Jinmy chacin</h2>
+        <p>estudiante de aprendizaje</p>
+    </div>
+    
+</body>
+</html>
+
+   body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: #00E8FC;
+    border-radius: 25px;
+    border: 5px ;
+    box-shadow: 5px;
+    margin: 40px;
+    padding:  50px;
+    text-align: center;
+
+ ejercicio 8
+}
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css/estilos8.css">
+</head>
+<body>
+    <header><h1>Mi Blog</h1></header>
+    <main><p>una actualizacion que estoy recibiendo</p> </main>
+    <footer><p>Copyright © 2025</p></footer>
+    
+</body>
+</html>
+
+  header {
+      
+      background-color: yellow
+  }
+      
+  main {
+         
+     background-color: aqua;
+  }
+  
+  footer {
+      
+      background-color: #457B9D;
+  }
+  
+  
+  ejercicio 9 
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css/estilos9.css">
+</head>
+<body>
+    <nav>
+         <u1>Lista</ul>
+        <li><a href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">Animal favorito</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Cars">juguete favorito</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Crash_Bandicoot_(franquicia) y cars">Videojuego favorito</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Shingeki_no_Kyojin">anime favorito</a></li>
+   </nav>
+    
+    
+</body>
+</html>
+
+ ul {
+    list-style: none;
+}
+
+ li {
+    display: inline-block;
+}
+
+ a:hover{
+    text-decoration: none;
+    padding: 15%;
+    background-color:#8ECAE6;
+}
+
+  ejercicio 10 mi biografia
+  
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi vida</title>
+    <link rel="stylesheet" href="/css/estilo_bio.css">
+</head>
+<body>
+    <header>
+        <h1>Jinmy junior</h1>
+    </header>
+
+    <main>
+        <section class="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <img src="https://www.facebook.com/share/19X9P39ZuU/?mibextid=wwXIfr.jpg" alt="Mi Foto" class="profile-picture">
+            <p> bueno amo la tenologia creci jugando consola quiero aprender en arte de la tenologia queiro aprender mas sobre cosas virtuales y tener la habilidad
+               de poder tener esa habilidad de crea algun dia con la bendicion de dios un juego.</p>
+        </section>
+
+        <section class="hobbies">
+            <h2>Mis Hobbies</h2>
+            <ul>
+                <li>aprender cosas nuevas</li>
+                <li>voy a gym</li>
+                <li>me encanta escuchar musica es mi paz interior gracias el se que es tranquilida en mi </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>mi Redes Sociales:</p>
+        <a href="#">https://www.facebook.com/?locale=es_LA</a> | <a href="#">https://www.tiktok.com/es/</a> | <a href="#">https://www.instagram.com/</a>
+    </footer>j
+</body>
+</html>
+
+  
+  body {
+  
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #787474;
+    color: ##787474;
+}
+
+header {
+
+    background-color: ##787474;
+    color: white;
+    padding: 2px 0;
+    text-align: center;
+}
+
+main {
+
+    padding: 25px;
+}
+
+.sobre-mi {
+
+    margin-bottom: 15px;
+    background-color: rgb(222, 182, 22);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hobbies {
+
+    background-color: Non Photo blue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile-picture {
+
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+footer {
+
+    background-color: #787474;;
+    color: Non Photo blue ;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+
+    color: Non Photo blue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+
+    text-decoration: underline;
