@@ -1,0 +1,109 @@
+
+tarea de  HTML, CSS y JavaScript
+
+Parte 1: 50 Etiquetas HTML Comunes
+
+  
+Etiqueta        Descripción        Ejemplo de uso
+------------------------------------------------
+
+<div>           Contenedor genérico                              <div class="container">Contenido</div>
+<span>          Contenedor en línea                              <span style="color:red;">Texto rojo</span>
+<h1>             Encabezado de nivel 1                          . <h1>Título Principal</h1>
+<h2>             Encabezado de nivel 2                            <h2>Subtítulo</h2>
+<h3>             Encabezado de nivel 3                            <h3>Sección</h3>
+<p>              Párrafo de texto                                 <p>Este es un párrafo.</p>
+<a>              Enlace a otra página                             <a href="https://ejemplo.com">Visitar</a>
+<img>          . Imagen en la página                              <img src="imagen.jpg" alt="Descripción">
+<ul>             Lista desordenada                                <ul><li>Elemento</li></ul>
+<ol>             Lista ordenada                                 . <ol><li>Elemento</li></ol>
+<li>             Elemento de lista                                <li>Elemento</li>
+<table>          Tabla de datos                                   <table><tr><td>Celda</td></tr></table>
+<tr>             Fila de tabla                                    <tr><td>Fila</td></tr>
+<td>             Celda de tabla                                   <td>Datos</td>
+<th>           . Celda de encabezado                            . <th>Encabezado</th>
+<form>           Formulario                                       <form action="/submit" method="post">...</form>
+<input>          Campo de entrada                               . <input type="text" name="nombre">
+<button>         Botón                                          . <button type="submit">Enviar</button>
+<label>        . Etiqueta de formulario                         . <label for="nombre">Nombre</label>
+<select>       . Menú desplegable                               . <select><option>1</option></select>
+<option>       . Opción del menú                                 <option value="1">Opción 1</option>
+<textarea>       Área de texto                                  . <textarea rows="4"></textarea>
+<header>       . Encabezado de página                           . <header><h1>Bienvenido</h1></header>
+<footer>       . Pie de página                                  . <footer>© 2025 Mi Sitio</footer>
+<nav>          . Navegación                                     . <nav><a href="#">Inicio</a></nav>
+<article>      . Artículo independiente                           <article><h2>Noticia</h2></article>
+<section>      . Sección temática                               . <section><h2>Tema</h2></section>
+<aside>        . Contenido lateral                              . <aside>Info adicional</aside>
+<main>         . Contenido principal                            . <main><h1>Contenido</h1></main>
+<figure>       . Imagen con descripción                         . <figure><img src=""><figcaption>Texto</figcaption></figure>
+<figcaption>   . Leyenda de figura                              . <figcaption>Descripción</figcaption>
+<blockquote>   . Cita                                            . <blockquote>Cita</blockquote>
+<cite>         . Fuente o autor                                 . <cite>Autor</cite>
+<code>         . Código en línea                                . <code>console.log()</code>
+<pre>            Texto preformateado                              <pre>Texto con saltos</pre>
+<strong>         Negrita semántica                                <strong>Importante</strong>
+<em>             Cursiva semántica                              . <em>Énfasis</em>
+<small>        . Texto pequeño                                  . <small>Aclaración</small>
+<mark>         . Texto resaltado                                  <mark>Dato</mark>
+<del>          . Texto tachado                                  . <del>Eliminado</del>
+<ins>          . Texto insertado                                . <ins>Agregado</ins>
+<time>         . Tiempo/fecha estructurada                      . <time datetime="2025-07-25">25 jul 2025</time>
+<progress>     . Barra de progreso                              . <progress value="50" max="100">50%</progress>
+<meter>        . Medidor visual                                 . <meter value="0.6">60%</meter>
+<svg>          . Gráfico vectorial                              . <svg><circle r="40"/></svg>
+<canvas>       . Área de dibujo                                 . <canvas width="200"></canvas>
+<script>       . Código JavaScript                              . <script src="app.js"></script>
+<link>           Enlace a recurso externo                       . <link rel="stylesheet" href="style.css">
+<meta>         . Metadatos del documento                        . <meta charset="UTF-8">
+<title>        . Título de la página                            . <title>Mi Web</title>
+<style>        . Estilo embebido                                . <style>body {}</style>
+<iframe>       . Incrustar otro sitio                           . <iframe src="https://ejemplo.com"></iframe>
+  </pre>
+
+ejercicio 2: 20 Propiedades CSS
+
+Propiedad           Descripción     Ejemplo de uso
+------------------|-------------------------------
+
+font-size         | Tamaño de la fuente                      | font-size: 16px;
+color             | Color del texto                          | color: blue;
+background-color  | Color de fondo                           | background-color: yellow;
+margin            | Margen exterior                          | margin: 10px;
+padding           | Espaciado interno                        | padding: 15px;
+border            | Borde del elemento                       | border: 1px solid black;
+width             | Ancho del elemento                       | width: 100%;
+height            | Altura del elemento                      | height: 200px;
+display           | Tipo de caja (block, inline, flex, etc.) | display: flex;
+position          | Posicionamiento                          | position: relative;
+top, right, etc.  | Desplazamiento del elemento              | top: 10px;
+flex              | Contenedor flexible                      | display: flex;
+grid              | Contenedor de cuadrícula                 | display: grid;
+text-align        | Alineación del texto                     | text-align: center;
+font-family       | Tipo de fuente                           | font-family: Arial;
+line-height       | Altura de línea                          | line-height: 1.5;
+overflow          | Cómo se muestra el contenido desbordado  | overflow: hidden;
+opacity           | Transparencia del elemento               | opacity: 0.5;
+box-shadow        | Sombra alrededor                         | box-shadow: 2px 2px 5px gray;
+transition        | Efecto al cambiar propiedades            | transition: all 0.3s ease;
+
+
+ejercicio 3: JavaScript y el DOM
+
+¿Qué es el DOM?
+El DOM (Document Object Model) es la estructura del documento web como un árbol de objetos que JavaScript puede manipular.
+
+Funciones básicas para manipular el DOM:
+
+document.getElementById()       |→ Selecciona por ID.
+document.querySelector()        |→ Selecciona con selector CSS.
+element.appendChild()           |→ Agrega nodo hijo.
+element.remove()                |→ Elimina nodo.
+element.style.propiedad         |→ Cambia estilos.
+
+
+Ejemplo práctico:
+
+  id="demo">Texto original
+  onclick="document.getElementById('demo').innerText = 'Texto cambiado';">
+    Cambiar texto con JavaScript
